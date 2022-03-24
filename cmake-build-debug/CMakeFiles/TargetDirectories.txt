@@ -1,0 +1,7 @@
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/tests.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/test.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/template.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/package.dir
+/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/CMakeFiles/package_source.dir
