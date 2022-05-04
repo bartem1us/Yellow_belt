@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(unit_tests "/home/bartem1us/bartem1us/Yellow_belt/cmake-build-debug/tests")
-set_tests_properties(unit_tests PROPERTIES  _BACKTRACE_TRIPLES "/home/bartem1us/bartem1us/Yellow_belt/CMakeLists.txt;50;add_test;/home/bartem1us/bartem1us/Yellow_belt/CMakeLists.txt;0;")
+set_tests_properties(unit_tests PROPERTIES  _BACKTRACE_TRIPLES "/home/bartem1us/bartem1us/Yellow_belt/CMakeLists.txt;60;add_test;/home/bartem1us/bartem1us/Yellow_belt/CMakeLists.txt;0;")

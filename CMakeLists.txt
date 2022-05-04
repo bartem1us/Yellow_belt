@@ -32,14 +32,24 @@ find_package(GTest CONFIG REQUIRED)
 
 add_library(${PROJECT_NAME} STATIC
         ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task1/Task1.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task2/Task2.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task3/Task3.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task4/Task4.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task5/Task5.cpp
+
+
         )
 
+add_executable(demo
+        ${CMAKE_CURRENT_SOURCE_DIR}/Week1/Task6/main.cpp
+        )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
         "$<INSTALL_INTERFACE:include>"
         )
 
+target_link_libraries(demo ${PROJECT_NAME})
 
 if(BUILD_TESTS)
     add_executable(tests
